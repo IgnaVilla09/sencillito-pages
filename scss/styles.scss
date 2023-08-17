@@ -79,31 +79,31 @@ body {
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
     width: 100%;
-    height: 170px;
+    height: 230px;
     background: rgb(0,0,0);
     &__info {
         padding: 50px 0;
-        &--redes {
-            li {
-                display: inline-block;
-                margin: 0 10px;
-                padding: 10px; 
-                border-radius: 50px;
-                border: 2px solid #fff;
-                list-style: none;
-                i {
-                    font-size: 20px;
-                    color: #fff;
+            &--redes {
+                li {
+                    display: inline-block;
+                    margin: 0 10px;
+                    padding: 10px; 
+                    border-radius: 50px;
+                    border: 2px solid #fff;
+                    list-style: none;
+                        i {
+                            font-size: 20px;
+                            color: #fff;
+                        }
+                }
+                li:hover {
+                    background-color: #fff;
+                    border: 2px solid #000;
+                        i{
+                            color: #000;
+                        }
                 }
             }
-            li:hover {
-                background-color: #fff;
-                border: 2px solid #000;
-                i{
-                    color: #000;
-                }
-            }
-        }
     }
     &__nav {
         display: flex;
@@ -124,21 +124,21 @@ body {
     &__developer {
         grid-column: 1/3;
         padding: 0 0 20px 0;
-        h2 {
-            text-align: center;
-            font-size: 1em;
-            color: #888;
-        }
+            h2 {
+                text-align: center;
+                font-size: 1em;
+                color: #888;
+            }
     h3 {
         text-align: center;
-        a {
-            font-size: .8em;
-            color: #888;
-            text-decoration: none;
-        }
-        a:hover {
-            border-bottom: 2px solid #888;
-        }
+            a {
+                font-size: .8em;
+                color: #888;
+                text-decoration: none;
+            }
+            a:hover {
+                border-bottom: 2px solid #888;
+            }
     }
     }
 }
@@ -173,26 +173,25 @@ body {
             padding: 0 0 15px 0;
         }
         .days {
-          display: grid;
-          grid-template-columns: repeat(7, 1fr);
-          grid-gap: 5px;
-            &-name {
-                color: #000;
-            }
-            div {
-                text-align: center;
-                padding: 5px;
-                background: #fff;
-            }
-            &-Ocupados {
-                background: #f00 !important;
-            }
-            &-Disponibles {
-                outline: 2px solid #0f0;
-            }
-          
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 5px;
+                &-name {
+                    color: #000;
+                }
+                div {
+                    text-align: center;
+                    padding: 5px;
+                    background: #fff;
+                }
+                &-Ocupados {
+                    background: #f00 !important;
+                }
+                &-Disponibles {
+                    outline: 2px solid #0f0;
+                }
         }
-      }
+    }
     &__navegation {
         margin: 40px 0;
             button {
@@ -222,4 +221,25 @@ body {
             border: 2px solid #000;
         }
     }
+}
+
+/*MAIN MUSIC*/
+.container-music {
+    margin: 300px 120px 0px 120px;
+        &__youtube {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+                &-video {
+                    width: 655px;
+                    height: 409px;
+                    border: 2px solid rgb(228, 197, 94)
+                }
+            }
+}
+
+/*MAIN GALERIA FOTOS*/
+.container-galery {
+    margin: 300px 150px 0 150px;
 }

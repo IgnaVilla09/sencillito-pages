@@ -77,7 +77,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   width: 100%;
-  height: 170px;
+  height: 230px;
   background: rgb(0, 0, 0);
 }
 .container-footer__info {
@@ -214,6 +214,27 @@ body {
   background: #fff;
   color: #000;
   border: 2px solid #000;
+}
+
+/*MAIN MUSIC*/
+.container-music {
+  margin: 300px 120px 0px 120px;
+}
+.container-music__youtube {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.container-music__youtube-video {
+  width: 655px;
+  height: 409px;
+  border: 2px solid rgb(228, 197, 94);
+}
+
+/*MAIN GALERIA FOTOS*/
+.container-galery {
+  margin: 300px 150px 0 150px;
 }
 
 /*# sourceMappingURL=styles.css.map */
