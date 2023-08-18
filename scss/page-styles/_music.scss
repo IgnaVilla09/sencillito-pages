@@ -1,0 +1,14 @@
+.container-music {
+    margin: 300px 120px 0px 120px;
+        &__youtube {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+                &-video {
+                    width: 655px;
+                    height: 409px;
+                    border: 2px solid rgb(228, 197, 94)
+                }
+            }
+}

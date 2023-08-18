@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/styles.css">
-  <title>Sencillito y de Alpargatas - Música</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/aa307ffcbe.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Sencillito y de Alpargatas - Música</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aa307ffcbe.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container-nav">
-            <div class="container-nav__bar">
+            <div class="container-nav__bar" data-aos="fade-up">
                 <ul>
                     <li><a href="shows.html">SHOWS</a></li>
                     <li><a href="music.html">MÚSICA</a></li>
@@ -31,7 +32,7 @@
             <img src="../assets/img/grupo/img5.jpg" alt="">
         </div>
         <div class="container-music">
-            <div class="container-music__youtube">
+            <div class="container-music__youtube" data-aos="fade-up">
                 <div class="container-music__youtube-video">
                     <iframe width="650" height="400" src="https://www.youtube.com/embed/Zc2se_F1ANU" title="LUNA CAUTIVA - TIEMPO PRIMAVERAL - SENCILLLITO Y DE ALPARGATAS, LA TRUCHA TRANQUI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
@@ -48,7 +49,7 @@
         </div>
     </main>
     <footer>
-        <div class="container-footer">
+        <div class="container-footer" data-aos="zoom-in">
             <div class="container-footer__info">
                 <div class="container-footer__info--redes">
                     <ul>
@@ -80,5 +81,9 @@
         </div>
     </footer>
     <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

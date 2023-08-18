@@ -1,0 +1,40 @@
+.container-contact {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            gap: 20px;
+            font-size: 1.2em;
+                input {
+                    height: 60px;
+                    outline: none;
+                    padding: 10px;
+                }
+                input:focus {
+                    background: #ececec;
+                    border-bottom: 2px solid rgb(228, 197, 94);
+                }
+                textarea {
+                    outline: none;
+                    padding: 10px;
+                    resize: none;
+                }
+                textarea:focus {
+                    background: #ececec;
+                    border-bottom: 2px solid rgb(228, 197, 94);
+                }
+                ::placeholder {
+                    opacity: .8;
+                    
+                }
+                .btn-submit {
+                    cursor: pointer;
+                    font-size: 1.5em;
+                }
+        }
+
+
+}

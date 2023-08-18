@@ -1,0 +1,74 @@
+.container-shows {
+    margin: 300px 300px 0 300px;
+    height: 800px;
+    text-align: center;
+    .separador {
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+    }
+    h2 {
+        font-size: 90px;
+        color: #fff;
+    }
+    .calendar {
+        width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: #fff9;
+        h1 {
+            color: #fff;
+            padding: 0 0 15px 0;
+        }
+        .days {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 5px;
+                &-name {
+                    color: #000;
+                }
+                div {
+                    text-align: center;
+                    padding: 5px;
+                    background: #fff;
+                }
+                &-Ocupados {
+                    background: #f00 !important;
+                }
+                &-Disponibles {
+                    outline: 2px solid #0f0;
+                }
+        }
+    }
+    &__navegation {
+        margin: 40px 0;
+            button {
+                border: none;
+                padding: 5px;
+                font-weight: 900;
+                border-radius: 4px;
+                background: rgb(228, 197, 94);
+            }
+            button:hover {
+                cursor: pointer;
+                color: #fff;
+            }
+    }
+    &__box-contact {
+        a {
+            text-decoration: none;
+            color: #fff;
+            padding: 15px;
+            border: 2px solid #fff;
+            background: #01015e;
+            transition: all .5s ease;
+        }
+        a:hover {
+            background: #fff;
+            color: #000;
+            border: 2px solid #000;
+        }
+    }
+}
