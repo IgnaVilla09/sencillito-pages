@@ -484,7 +484,6 @@ body {
     grid-column: 2/3;
     margin: 20px;
     display: inline-block;
-    float: right;
     background: none;
     border: none;
   }
